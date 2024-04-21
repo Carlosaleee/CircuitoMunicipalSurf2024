@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircuitoMunicipalSurf2024</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+
+    <header class="container-fluid p-2 bg-light text-center" id="home">
+
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+         
+                <img src="./images/4.png" width="450"  alt="Logo">
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home" ><b><h5 >Evento</h5></b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#atletas"><b><h5>Atletas</h5></b></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " href="#inscricoes"><b><h5 >Inscrições</h5></b></a>
+                  </li>
+                   </ul>
+               
+              </div>
+            </div>
+        </nav>
+
+        <section class="container-fluid" id="home">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/Bg03.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Bg02.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Bg04.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+        </section>
+
+    </header>
+
+    <style>
+        /* Estilos personalizados para as bordas */
+        .border-dark {
+            border-color: #343a40 !important; /* Cor mais escura para as bordas */
+        }
+    </style>
+</head>
+<body>
+
+    <section class="container-fluid bg-red-subtle text-center p-3" id="inscricoes">
+        <br>
+        <div class="text-center">
+            <div class="card mb-3 mx-auto mt-5 border-dark" style="max-width: 50%;">
+                <div class="card-body text-center">
+                    <h2 class="card-title text-danger">Inscrições Abertas</h2>
+                    <h5 class="card-text">Faça já sua Inscrição</h5>
+                    <a href="https://forms.gle/CcNGnzK8N7HeXojW9" class="btn btn-success">Saiba Mais!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+          <section class="container-fluid row m-3 text-center justify-content-center">
+
+            <h1 class="text-center" ><b></b>Atletas Inscritos:</h1></h1>
+              
+          </section>
+
+          <section class="container-fluid" id="atletas">
+
+            <style>
+                /* Ajusta o tamanho das imagens */
+                .carousel-item img {
+                    max-width: 100%;
+                    height: auto;
+                    padding: 1%;
+                }
+            </style>
+        
+        
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/CesarFolder.png" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/DaniloFolder.png" class="d-block w-100" alt="Slide 2">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/EDMARFOLDER.png" class="d-block w-100" alt="Slide 3">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/elielFolder.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/GilmarFolder.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/ivanFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/JorgeFolder.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/LeoTattooFolder.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/lukasFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/MarcosFolder1.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/MarcusFolder2.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/MarlonFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/MatheusFolder.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/RafaFolder.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/ValdecirFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/victorDattiFolder.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/viniciusFolder.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/WilliansFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Repita esses três itens mais 5 vezes -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./images/atletas/WillimMartinsFolder.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/GilmarFolder.png" class="d-block w-100" alt="Slide 5">
+                            </div>
+                            <div class="col">
+                                <img src="./images/atletas/ivanFolder.png" class="d-block w-100" alt="Slide 6">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+          </section>
+
+          <section class="container-fluid">
+
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/6.png" class="d-block w-100" alt="...">
+              </div>
+                <div class="carousel-item">
+                <img src="./images/7.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </section>
+
+        <section class="container-fluid">
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">&copy; By Carlos Alexandre - 2024, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><i class="bi bi-youtube text-danger "></i><a class="text-black" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><i class="bi bi-instagram "></i><a class="text-black" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><i class="bi bi-facebook text-bg-primary"></i><a class="text-black" href="#"><svg class="bi" width="50" height="24"></svg></a></li>
+            </ul>
+          </footer>
+        </div>
+             
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
