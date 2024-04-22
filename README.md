@@ -35,7 +35,7 @@
 
 <h2>Funcionalidades do sistema (requisitos)</h2>
 <p> Inscrições de Atletas </p>
-<p> O Site contará com uma seção especifica para a inscrições dos atletas, e contara com um banco de dados para armasenar as informações coletadas. </p>
+<p> O Site contará com uma seção especifica para a inscrições dos atletas, e contara com um banco de dados para armazenar as informações coletadas. </p>
 
 
  
