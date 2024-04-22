@@ -21,7 +21,11 @@
 <p>- Bootstrap</p>
 <p>- Css</p>
 <p>- JavaScript</p>
-<p>- Json</p>
+<p>- Json Server</p>
+<p>- Figma</p>
+<p>- PhotoShop</p>
+<p>- Google Form</p>
+<p>- Google Maps</p>
 
 <h2>Time de desenvolvedores</h2>
 <p>Design by Carlos Alexandre</p>
