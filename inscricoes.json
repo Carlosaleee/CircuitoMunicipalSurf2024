@@ -1,0 +1,145 @@
+{
+  "inscricoes": [
+    {
+      "id": "1",
+      "nome": "Carlos Alexandre",
+      "email": "carlos@example.com",
+      "telefone": "(13) 99999-9999",
+      "dataNasc": "2000-01-01",
+      "sexo": "Masculino",
+      "cidade": "São Paulo",
+      "categoria": "Open Masculina"
+    },
+    {
+      "id": "2",
+      "nome": "Maria Silva",
+      "email": "maria@example.com",
+      "telefone": "(13) 88888-8888",
+      "dataNasc": "1995-05-15",
+      "sexo": "Feminino",
+      "cidade": "Rio de Janeiro",
+      "categoria": "Master"
+    },
+    {
+      "id": "9dd6",
+      "nome": "Rutinha Malvada",
+      "email": "atividade04@HotMail.com",
+      "telefone": "13981344815",
+      "dataNasc": "1980-03-31",
+      "sexo": "F",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "OpenFeminina"
+      ]
+    },
+    {
+      "id": "6689",
+      "nome": "Italo Ferreira",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1985-06-02",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "Master"
+      ]
+    },
+    {
+      "id": "cda3",
+      "nome": "Raquel é Boazinha",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1984-05-03",
+      "sexo": "F",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "OpenFeminina"
+      ]
+    },
+    {
+      "id": "c5af",
+      "nome": "Mick Fanning",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1990-12-05",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "OpenMasculina",
+        "Master"
+      ]
+    },
+    {
+      "id": "0ba7",
+      "nome": "Taj Burrow",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1980-05-05",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "d689",
+      "nome": "Taj Burrow",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1980-05-05",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categorias": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "a9d1",
+      "nome": "Gabriel Medina",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1980-12-25",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "aa34",
+      "nome": "Gabriel Medina",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1980-12-25",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "d6e8",
+      "nome": "Adriano de Souza",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1975-11-25",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "9058",
+      "nome": "Luis Slater",
+      "email": "atividade04@HotMail.com",
+      "telefone": "(13)91231-8596",
+      "dataNasc": "1951-10-31",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
+    }
+  ]
+}
