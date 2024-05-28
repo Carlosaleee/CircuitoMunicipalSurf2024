@@ -71,3 +71,6 @@ function limparFormulario() {
         checkbox.checked = false;
     });
 }
+
+
+

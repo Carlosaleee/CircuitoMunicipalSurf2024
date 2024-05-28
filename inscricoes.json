@@ -28,7 +28,7 @@
       "dataNasc": "1980-03-31",
       "sexo": "F",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "OpenFeminina"
       ]
     },
@@ -40,7 +40,7 @@
       "dataNasc": "1985-06-02",
       "sexo": "M",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "Master"
       ]
     },
@@ -52,7 +52,7 @@
       "dataNasc": "1984-05-03",
       "sexo": "F",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "OpenFeminina"
       ]
     },
@@ -64,7 +64,7 @@
       "dataNasc": "1990-12-05",
       "sexo": "M",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "OpenMasculina",
         "Master"
       ]
@@ -77,7 +77,7 @@
       "dataNasc": "1980-05-05",
       "sexo": "M",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "OpenMasculina"
       ]
     },
@@ -89,7 +89,7 @@
       "dataNasc": "1980-05-05",
       "sexo": "M",
       "cidade": "ILHA COMPRIDA",
-      "categorias": [
+      "categoria": [
         "OpenMasculina"
       ]
     },
@@ -135,6 +135,18 @@
       "email": "atividade04@HotMail.com",
       "telefone": "(13)91231-8596",
       "dataNasc": "1951-10-31",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
+    },
+    {
+      "id": "15a9",
+      "nome": "Michael Rodrigues",
+      "email": "atividade02@Gmail.com",
+      "telefone": "(13) 95878-4152",
+      "dataNasc": "1978-02-15",
       "sexo": "M",
       "cidade": "ILHA COMPRIDA",
       "categoria": [
