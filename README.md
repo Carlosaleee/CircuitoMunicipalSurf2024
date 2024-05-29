@@ -1,41 +1,109 @@
-<h2>Nome : Carlos Alexandre da Silva</h2>
-<h3>Curso : Desenvolvimento de Sistemas</h3>
-<h3>Unidade Curricular 15 </h3>
+# Circuito Municipal Ilha Compridense de Surf 2024
 
-<h3>Projeto Integrador - Modulo 3</h3>
+## Informações do Projeto
 
-<h2>Título do projeto</h2>
+**Nome:** Carlos Alexandre da Silva  
+**Curso:** Desenvolvimento de Sistemas  
+**Unidade Curricular:** 15  
+**Projeto Integrador:** Módulo 3  
 
-<p> Circuito Municipal de Surf 2024 </p>
+## Título do Projeto
 
-<h2>Status do projeto (em desenvolvimento)</h2>
-<p> Em Desenvolvimento. </p>
+**Circuito Municipal Ilha Compridense de Surf 2024**
 
-<h2>Tecnologias que serão aplicadas (considere apenas as tecnologias abordadas no curso)</h2>
+## Status do Projeto
 
-<p>- Java</p>
-<p>- SpringBoot</p>
-<p>- MySql</p>
-<p>- Sql</p>
-<p>- Html</p>
-<p>- Bootstrap</p>
-<p>- Css</p>
-<p>- JavaScript</p>
-<p>- Json Server</p>
-<p>- Figma</p>
-<p>- PhotoShop</p>
-<p>- Google Form</p>
-<p>- Google Maps</p>
+**Em Desenvolvimento**
 
-<h2>Time de desenvolvedores</h2>
-<p>Design by Carlos Alexandre</p>
+## Tecnologias Utilizadas
 
-<h2>Objetivo do software (a que deve servir)</h2>
-<p> Desenvolver um Site funcional para um evento de Surfe. </p>
+- **Backend:**
+  - Java
+  - Spring Boot
+  - MySQL
+  - SQL
 
-<h2>Funcionalidades do sistema (requisitos)</h2>
-<p> Inscrições de Atletas </p>
-<p> O Site contará com uma seção especifica para a inscrições dos atletas, e contara com um banco de dados para armazenar as informações coletadas. </p>
+- **Frontend:**
+  - HTML
+  - Bootstrap
+  - CSS
+  - JavaScript
+
+- **Ferramentas e Outros:**
+  - JSON Server
+  - Figma
+  - Photoshop
+  - Google Forms
+  - Google Maps
+
+## Time de Desenvolvedores
+
+## © Design by Carlos Alexandre - 2024
+
+## Objetivo do Software
+
+Desenvolver um site funcional para um evento de surfe.
+
+## Funcionalidades do Sistema (Requisitos)
+
+- **Divulgação do Evento:** Página principal com informações sobre o evento.
+- **Formulário de Inscrição de Atletas:** Permite a inscrição de atletas com armazenamento em banco de dados.
+- **Tabela com Atletas Inscritos:** Exibe uma lista dos atletas inscritos no evento.
+- **Galeria de Fotos:** Mostra uma galeria de fotos do evento.
+
+## Pré-requisitos
+
+Para rodar o projeto localmente, você precisará ter o Node.js e o JSON Server instalados. Além disso, será necessário criar e configurar o banco de dados MySQL.
+
+### Configuração do JSON Server
+
+1. **Criar um arquivo JSON:**  
+   Crie um arquivo chamado `inscricoes.json` com a estrutura inicial de dados. Exemplo:
+   ```json
+   {
+       "inscricoes": []
+   }
 
 
- 
+<p>Instalar o JSON Server:</p>
+   <br>
+<p>No terminal, execute o comando:</p>
+<p>npm install -g json-server</p>
+<br>
+<p>Iniciar o JSON Server:</p>
+<p>No terminal, execute o comando:</p>
+<p>json-server --watch inscricoes.json</p> 
+<br>
+
+## ESTRUTURA DO PROJETO
+
+
+/circuito-surf-2024
+<p>├── /backend</p>
+<p>│   ├── src/main/java</p>
+<p>│   ├── src/main/resources</p>
+<p>│   └── pom.xml</p>
+<p>├── /frontend</p>
+<p>│   ├── /css</p>
+<p>│   ├── /images</p>
+<p>│   ├── /js</p>
+<p>│   ├── index.html</p>
+<p>│   └── inscricoes.json</p>
+<p>├── README.md</p>
+<p>└── package.json</p>
+
+
+### Explicações Adicionais
+
+- **Status do Projeto:** Indica que o projeto ainda está em desenvolvimento.
+- **Tecnologias Utilizadas:** Listagem das tecnologias e ferramentas que serão usadas no desenvolvimento do projeto.
+- **Funcionalidades do Sistema:** Descreve as principais funcionalidades que o sistema deve oferecer.
+- **Pré-requisitos:** Instruções sobre como configurar o ambiente de desenvolvimento, incluindo o uso do JSON Server para armazenamento temporário de dados.
+- **Configuração do Ambiente de Desenvolvimento:** Passos detalhados para clonar o repositório, instalar dependências, configurar o banco de dados e rodar a aplicação.
+- **Estrutura do Projeto:** Visão geral da estrutura de diretórios e arquivos do projeto.
+
+Este arquivo README.md fornece uma documentação clara e completa do projeto, facilitando o entendimento e a configuração do ambiente de desenvolvimento para outros desenvolvedores ou colaboradores.
+
+## © Design by Carlos Alexandre - 2024
+
+
