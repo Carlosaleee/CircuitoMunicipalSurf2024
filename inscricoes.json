@@ -164,6 +164,18 @@
       "categoria": [
         "OpenFeminina"
       ]
+    },
+    {
+      "id": "925b",
+      "nome": "Lukas com K",
+      "email": "atividade04@HotMail.com",
+      "telefone": "13981344815",
+      "dataNasc": "2024-05-15",
+      "sexo": "M",
+      "cidade": "ILHA COMPRIDA",
+      "categoria": [
+        "OpenMasculina"
+      ]
     }
   ]
 }
